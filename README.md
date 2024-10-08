@@ -1,7 +1,7 @@
 # How to Use NLP and Generative AI in Survey Research
-## AAPOR 2024 Short Course
-## Instructors: [Soubhik Barari](https://soubhikbarari.com/) and [Joshua Y. Lerner](https://sites.google.com/view/joshuaylerner/home)
-## October 10, 2024
+### AAPOR 2024 Short Course
+### Instructors: [Soubhik Barari](https://soubhikbarari.com/) and [Joshua Y. Lerner](https://sites.google.com/view/joshuaylerner/home)
+### October 10, 2024
 
 This repository contains supplementary materials for the [2024 AAPOR online course](https://aapor.org/short-courses/) on LLMs, NLP, and surveys.
 
