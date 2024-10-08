@@ -7,11 +7,11 @@
 
 Qualtrics.SurveyEngine.addOnload(function() {
     /* Place your JavaScript here to run when the page loads */
+
     this.hideNextButton(); // Hide next button until LLM API call finishes
     this.getChoiceContainer().hide(); // Hide question choices until LLM API call finishes
     document.getElementById('loadingMessage').style.display = 'block'; // Show loading message
     document.getElementById('loadingSpinner').style.display = 'block'; // Show loading spinner
-    var that = this;
 
     var sys_prompt = " \
         You are a survey interviewer. You will be given information \
@@ -124,6 +124,7 @@ Qualtrics.SurveyEngine.addOnload(function() {
     }
 
     // Call function
+    var that = this;
     sendPromptToLLM(sys_prompt, user_prompt, function(response) {
         // Inject model output into question text and reveal question
         document.getElementById("modelOutput").innerHTML = response;
