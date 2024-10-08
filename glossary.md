@@ -160,8 +160,7 @@ Machine learning (ML) methods to understand and generate high-dimensional data (
 
 - *Other Gen AI Concepts:*
     - **Hallucination**: When a model generates plausible-sounding but incorrect or nonsensical information.
-    - **Alignment**
-    - **Bias**
-    - **Toxicity**
-    - **Sensitivity**
-    - **Model Drift**
+    - **Alignment**: Ensuring that an AI system’s outputs match the goals, values, or ethics of its users or developers.
+    - **Bias**: When a model’s output reflects unfair or unbalanced treatment of certain groups or ideas due to biases in the training data.
+    - **Toxicity**: The generation of harmful, offensive, or inappropriate content by a model, often an important consideration in content moderation.
+    - **Model Drift**: When an AI model's performance degrades over time due to changes in the environment or data, requiring retraining or updates.
