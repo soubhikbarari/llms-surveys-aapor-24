@@ -7,5 +7,5 @@ This repository contains supplementary materials for the [2024 AAPOR online cour
 
 - [Glossary](glossary.md) of relevant terms and concepts.
 - [References](references.md) including links to relevant papers.
-- [`code/`] contains R scripts (and extensions) demonstrated or discussed in class.
-- [`surveys/`] contains embedded javascripts (`.js`) and Qualtrics design files (`.qsf`) for surveys demonstrated or discussed in class.
+- [`code/`](/code) contains R scripts (and extensions) demonstrated or discussed in class.
+- [`surveys/`](/surveys) contains embedded javascripts (`.js`) and Qualtrics design files (`.qsf`) for surveys demonstrated or discussed in class.
